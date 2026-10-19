@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2a0b5fbc19fd3febd61e2705fdd8a3d4",
+    "content-hash": "c31b832a28d87561c019173649fbb993",
     "packages": [
         {
             "name": "stripe/stripe-php",
-            "version": "v10.4.0",
+            "version": "v10.21.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/stripe/stripe-php.git",
-                "reference": "87def896d9a2e2914871408277d67432cb112f71"
+                "reference": "b4ab319731958077227fad1874a3671458c5d593"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/87def896d9a2e2914871408277d67432cb112f71",
-                "reference": "87def896d9a2e2914871408277d67432cb112f71",
+                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/b4ab319731958077227fad1874a3671458c5d593",
+                "reference": "b4ab319731958077227fad1874a3671458c5d593",
                 "shasum": ""
             },
             "require": {
@@ -63,18 +63,20 @@
             ],
             "support": {
                 "issues": "https://github.com/stripe/stripe-php/issues",
-                "source": "https://github.com/stripe/stripe-php/tree/v10.4.0"
+                "source": "https://github.com/stripe/stripe-php/tree/v10.21.0"
             },
-            "time": "2023-01-19T19:18:38+00:00"
+            "time": "2023-08-11T00:23:24+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "platform": {
+        "php": "^8.2"
+    },
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
 }
